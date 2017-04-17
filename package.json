@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/janicduplessis/react-native-coordinator#readme",
   "peerDependencies": {
+    "react": "*",
     "react-native": "*"
   },
   "dependencies": {
