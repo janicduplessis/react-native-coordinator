@@ -1,0 +1,37 @@
+{
+  "name": "react-native-coordinator",
+  "version": "0.1.0",
+  "description": ":/",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "flow": "flow check",
+    "prettier": "prettier --single-quote --trailing-comma all --write src/**",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janicduplessis/react-native-coordinator.git"
+  },
+  "author": "Janic Duplessis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janicduplessis/react-native-coordinator/issues"
+  },
+  "homepage": "https://github.com/janicduplessis/react-native-coordinator#readme",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.5",
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-anf": "^0.4.4",
+    "eslint-config-prettier": "^1.6.0",
+    "flow-bin": "^0.44.0",
+    "jest": "^19.0.2",
+    "prettier": "^1.1.0"
+  }
+}
